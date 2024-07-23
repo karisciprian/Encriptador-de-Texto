@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto Alura</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <header>
+            <img src="imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </header>
+
+    
+        <main>
+            <section class="encriptador">
+                <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+
+                <div class="encriptadorAlerta">
+
+                    <img src="imagenes/alerta.svg" alt="ImagenAlerta" class="imgAlerta">
+                    <p class="textoDeAlerta">Solo letras minúsculas y sin acentos</p>
+
+                </div>
+
+                <div class="encriptador-contenedor-botones">
+                    <button type="button" class="btn-encriptar">Encriptar</button>
+                    <button type="button" class="btn-desencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section class="contenedor-muneco-texto">
+            <div class="contenedor-muneco-texto-dos">
+
+                    <img src="imagenes/muñeco.png" alt="Muñeco" class="img-muñeco">
+
+                    <h6 class="h6">Ningún mensaje fue encontrado</h6>
+
+                    <p class="ingresar-texto">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="confirmado" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+            </section>  
+        </main>
+
+        
+        <footer>
+            <p class="copyright"> &copy; copyright 2024 - Encriptador de Texto - desarrollado by Karis</p>
+
+            
+                <a href="www.linkedin.com/in/karis-ciprian-front-end" rel="">
+                    <img src="imagenes/linkedin.svg" alt="Logo Linkedin" class="linked">
+                </a>
+                <a href="https://github.com/karisciprian" rel="">
+                    <img src="imagenes/github.svg" alt="Logo Github" class="git">
+
+                </a>
+        
+        </footer>
+
+    </div>    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
